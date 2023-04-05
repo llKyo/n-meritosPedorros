@@ -10,10 +10,16 @@
                 <label for="inputCodigo">C&oacute;digo Pedorro</label>
             </div>
         </div>
-        <button class="btn btn-danger" id="btnEnviar">
+        <button class="btn btn-danger" id="btnEnviarCod">
             <span class="spinner-border spinner-border-sm visually-hidden" role="status"
-                aria-hidden="true" id="btnSpinner"></span>
-            <span id="btnEnviarCod">Apuñalar 🔪</span>
+                aria-hidden="true" ></span>
+            <span>Apuñalar 🔪</span>
+        </button>
+
+        <button class="btn btn-warning" id="btnLimpiarSepara">
+            <span class="spinner-border spinner-border-sm visually-hidden" role="status"
+                aria-hidden="true" ></span>
+            <span>Limpiar</span>
         </button>
     </div>
 </div>

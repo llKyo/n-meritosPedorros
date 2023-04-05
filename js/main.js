@@ -20,6 +20,10 @@ import { cargarEventos, fechaActual } from "./utils/utils.js";
     const inputFechaPago    = document.querySelector("#inputFechaPago");
 
     const btnFusionar       = document.querySelector("#btnFusionar");
+    const btnLimpiarFusion  = document.querySelector("#btnLimpiarFusion");
+
+    const btnLimpiarSepara  = document.querySelector("#btnLimpiarSepara");
+
     
 
     inputCodigo.value = "25902057669111220210002200002511-01-2022";

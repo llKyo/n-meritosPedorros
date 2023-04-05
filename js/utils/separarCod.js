@@ -99,7 +99,6 @@ export const fusionarCod = async () => {
         inputCodigo.value = sCodUnido;
 
     } else {
-        // alert("Error al validar");
         toastTxt.innerHTML = "Los datos de fusi&oacute;n no son v&aacute;lidos";
         toast.show();
     }

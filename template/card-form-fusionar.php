@@ -94,9 +94,9 @@
                 </div>
             </div>
             <div class="col-lg-6">
-                <div class="input-group ">
+                <div class="input-group">
                     <div class="form-floating mb-3">
-                        <input type="text" class="form-control" id="inputTipoPago"
+                        <input type="text" class="form-control is-invalid" id="inputTipoPago"
                             placeholder="">
                         <label for="inputTipoPago">Tipo de Pago</label>
                     </div>
@@ -105,7 +105,7 @@
         </div>
         <div class="row">
             <div class="col-lg-12">
-                <div class="input-group ">
+                <div class="input-group">
                     <div class="form-floating mb-3">
                         <input type="date" class="form-control" id="inputFechaPago"
                             placeholder="">
@@ -115,10 +115,16 @@
             </div>
         </div>
         
-        <button class="btn btn-primary" id="btnEnviar">
+        <button class="btn btn-primary" id="btnFusionar">
             <span class="spinner-border spinner-border-sm visually-hidden" role="status"
-                aria-hidden="true" id="btnSpinner"></span>
-            <span id="btnFusionar">Atar con Alambres 🪡📎</span>
+                aria-hidden="true" ></span>
+            <span>Atar con Alambres 🪡📎</span>
+        </button>
+
+        <button class="btn btn-warning" id="btnLimpiarFusion">
+            <span class="spinner-border spinner-border-sm visually-hidden" role="status"
+                aria-hidden="true" ></span>
+            <span>Limpiar</span>
         </button>
     </div>
 </div>
