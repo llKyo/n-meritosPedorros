@@ -1,4 +1,4 @@
-import { fusionarCod, separarCod } from "./separarCod.js";
+import { copiarYNotificar, fusionarCod, separarCod } from "./separarCod.js";
 
 export const fechaActual = () => {
      const now = new Date();
@@ -17,7 +17,7 @@ export const limpiarTodoFusionar = () => {
      inputTipoPer.value = '';
      inputAnio.value = '';
      inputCodCarr.value = '';
-     inputNumCoutas.value = '';
+     inputNumCuotas.value = "";
      inputMonto.value = '';
      inputFormPago.value = '';
      inputTipoPago.value = '';
@@ -41,7 +41,7 @@ export const cargarEventos = () => {
      inputTipoPer.addEventListener("keypress", e =>  (e.key === "Enter") ? btnFusionar.click() : '');
      inputAnio.addEventListener("keypress", e =>  (e.key === "Enter") ? btnFusionar.click() : '');
      inputCodCarr.addEventListener("keypress", e =>  (e.key === "Enter") ? btnFusionar.click() : '');
-     inputNumCoutas.addEventListener("keypress", e =>  (e.key === "Enter") ? btnFusionar.click() : '');
+     inputNumCuotas.addEventListener("keypress", e =>  (e.key === "Enter") ? btnFusionar.click() : '');
      inputMonto.addEventListener("keypress", e =>  (e.key === "Enter") ? btnFusionar.click() : '');
      inputFormPago.addEventListener("keypress", e =>  (e.key === "Enter") ? btnFusionar.click() : '');
      inputTipoPago.addEventListener("keypress", e =>  (e.key === "Enter") ? btnFusionar.click() : '');
@@ -50,5 +50,17 @@ export const cargarEventos = () => {
      btnLimpiarFusion.addEventListener("click", limpiarTodoFusionar);
 
      btnLimpiarSepara.addEventListener("click", limpiarTodoSeparar);
+
+     btnCpConvenio.addEventListener("click", () => copiarYNotificar(inputConvenio.value));
+     btnCpRut.addEventListener("click", () => copiarYNotificar(inputRut.value));
+     btnCpNumPer.addEventListener("click", ()  => copiarYNotificar(inputNumPer.value));
+     btnCpTipoPer.addEventListener("click", ()  => copiarYNotificar(inputTipoPer.value));
+     btnCpAnio.addEventListener("click", ()  => copiarYNotificar(inputAnio.value));
+     btnCpCodCarr.addEventListener("click", ()  => copiarYNotificar(inputCodCarr.value));
+     btnCpNumCuotas.addEventListener("click", ()  => copiarYNotificar(inputNumCuotas.value));
+     btnCpMonto.addEventListener("click", ()  => copiarYNotificar(inputMonto.value));
+     btnCpFormPago.addEventListener("click", ()  => copiarYNotificar(inputFormPago.value));
+     btnCpTipoPago.addEventListener("click", ()  => copiarYNotificar(inputTipoPago.value));
+     btnCpFechaPago.addEventListener("click", ()  => copiarYNotificar(inputFechaPago.value));
 }
 

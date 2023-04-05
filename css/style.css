@@ -40,3 +40,7 @@ h1 em {
 .bold {
     font-weight: bold;
 }
+
+.cursor-copiar {
+    cursor: pointer;
+}
