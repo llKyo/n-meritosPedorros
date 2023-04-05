@@ -96,7 +96,7 @@
             <div class="col-lg-6">
                 <div class="input-group">
                     <div class="form-floating mb-3">
-                        <input type="text" class="form-control is-invalid" id="inputTipoPago"
+                        <input type="text" class="form-control" id="inputTipoPago"
                             placeholder="">
                         <label for="inputTipoPago">Tipo de Pago</label>
                     </div>
