@@ -63,4 +63,3 @@ export const cargarEventos = () => {
      btnCpTipoPago.addEventListener("click", ()  => copiarYNotificar(inputTipoPago.value));
      btnCpFechaPago.addEventListener("click", ()  => copiarYNotificar(inputFechaPago.value));
 }
-

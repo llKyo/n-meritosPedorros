@@ -13,7 +13,7 @@
         <button class="btn btn-danger" id="btnEnviarCod">
             <span class="spinner-border spinner-border-sm visually-hidden" role="status"
                 aria-hidden="true" ></span>
-            <span>Apuñalar 🔪</span>
+            <span>Apu&ntilde;alar</span>
         </button>
 
         <button class="btn btn-warning" id="btnLimpiarSepara">

@@ -151,7 +151,7 @@
         <button class="btn btn-primary" id="btnFusionar">
             <span class="spinner-border spinner-border-sm visually-hidden" role="status"
                 aria-hidden="true" ></span>
-            <span>Atar con Alambres 🪡📎</span>
+            <span>Atar con Alambres</span>
         </button>
 
         <button class="btn btn-warning" id="btnLimpiarFusion">
